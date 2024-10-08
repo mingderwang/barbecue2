@@ -1,11 +1,13 @@
 {
-  "name": "barbecue",
+  "name": "barbecue2",
   "version": "1.0.50",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "bun run --watch src/index.ts"
+    "dev": "bun run --watch src/index.tsx",
+    "start": "bun run src/index.tsx"
   },
   "dependencies": {
+    "@elysiajs/html": "^1.1.1",
+    "@types/react": "^18.3.11",
     "elysia": "latest"
   },
   "devDependencies": {
