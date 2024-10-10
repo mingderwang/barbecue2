@@ -13,3 +13,10 @@ bun run dev
 ```
 
 Open http://localhost:3000/ with your browser to see the result.
+
+# test
+```bash
+curl --location 'localhost:3000/' \
+--header 'Content-Type: application/json' \
+--data '"a string"'
+```
